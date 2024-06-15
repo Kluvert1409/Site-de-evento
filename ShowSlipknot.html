@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="CssSecundario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=New+Rocker&display=swap"
+        rel="stylesheet">
+
+    <script src="Javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento - Slipknot</title>
+</head>
+
+<body>
+    <img src="Slipknot_logo.png" alt="Logo do Slipknot" id="imgSlipknot">
+    <div id="justify">Slipknot é uma banda de metal americana formada em Des Moines, Iowa, em 1995. Conhecida por sua
+        música
+        agressiva e seu visual marcante com suas máscaras emblemáticas e seus macacões característicos, a banda ganhou
+        destaque no final dos anos 90 com o lançamento de seu primeiro
+        álbum auto-intitulado "Slipknot" em 1999. Esse álbum, com sua mistura única de nu-metal, death metal, e
+        elementos
+        de música industrial, rapidamente conquistou fãs ao redor do mundo e estabeleceu o Slipknot como uma das bandas
+        mais influentes no mundo do metal. <br>
+
+        <p>E em 2024, o Slipknot celebra o 25º aniversário do lançamento de seu álbum de estreia no palco da Arena
+            Brasil Metal. Será uma comemoração
+            épica de sua carreira e de seu impacto duradouro no mundo da música. A festa contará com uma performance
+            completa do álbum "Slipknot" em sua totalidade, além de sucessos de toda a carreira da banda.</p>
+
+        <p>Prepare-se para uma noite inesquecível enquanto Slipknot retorna ao palco para celebrar duas décadas e meia
+            de sua jornada musical e para entregar uma experiência que só eles podem proporcionar.</p>
+    </div>
+
+    <h2>Informações do Evento</h2>
+    <p><strong>Data:</strong> 23/10/2024</p>
+    <p><strong>Local:</strong> Arena Brasil Metal</p>
+    <p><strong>Horário de abertura dos portões:</strong> 20h</p>
+    <p><strong>Início do show:</strong> 22h</p>
+    <p><strong>Preço dos ingressos:</strong> R$250 (Pista), R$500 (VIP 1), R$1000 (VIP 2)</p>
+    <p><strong>Ingressos:</strong> Disponíveis nas bilheterias ou online</p>
+    <p><strong>Estacionamento:</strong> Gratuito para os 500 primeiros veículos</p> <br>
+    <p><b>ATENÇÃO: ENTRADA PERMITIDA APENAS PARA MAIORES DE 18 ANOS</b></p>
+
+    <h2>Cadastro para o Evento</h2>
+    <form onsubmit="botaoCadastrar()">
+        <p><label for="nomeCompleto">Nome Completo:</label>
+            <input type="text" id="nomeCompleto" required>
+        </p>
+
+        <p><label for="cpf">Cpf:</label>
+            <input type="password" id="cpf" maxlength="11" required>
+        </p>
+
+        Selecione o tipo de ingresso que deseja comprar:
+        <br>
+        <label for="pista">Pista</label>
+        <input type="radio" id="pista" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 1">VIP 1</label>
+        <input type="radio" id="VIP 1" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 2">VIP 2</label>
+        <input type="radio" id="VIP 2" name="tipoIngresso" required>
+
+        <p><label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </p>
+
+        <p><label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" minlength="8" maxlength="11" required>
+        </p>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>

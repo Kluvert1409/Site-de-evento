@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="CssSecundario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=New+Rocker&display=swap"
+        rel="stylesheet">
+
+    <script src="Javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento - Gojira</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <img src="Gojira_logo.png" alt="Logo do Gojira" id="imgGojira">
+    <div id="justify">
+        <p>Gojira é uma banda de metal francesa formada em 1996 em Bayonne Originalmente conhecida como. Conhecida por
+            sua combinação de death metal, groove metal
+            metal e progressivo, Gojira se destacou no cenário do metal mundial com letras frequentemente focadas em
+            questões ambientais e filosóficas, além de uma execução técnica impecável.</p>
+
+        <p>Em 2024, Gojira participará do evento Brasil Metal, em um show especial de comemoração aos 27 anos do
+            lançamento de seu primeiro álbum, "Possessed". O evento reunirá fãs que poderão desfrutar de uma performance
+            completa de "Possessed", junto com uma seleção
+            dos maiores sucessos de Gojira ao longo de sua carreira.</p>
+
+        <p>O Brasil Metal promete ser uma celebração inesquecível do legado de Gojira, honrando sua contribuição
+            significativa para o mundo do metal e oferecendo aos fãs uma experiência única e memorável.</p>
+    </div>
+
+    <h2>Informações do Evento</h2>
+    <p><strong>Data:</strong> 23/10/2024</p>
+    <p><strong>Local:</strong> Arena Brasil Metal</p>
+    <p><strong>Horário de abertura dos portões:</strong> 20h</p>
+    <p><strong>Início do show:</strong> 22h</p>
+    <p><strong>Preço dos ingressos:</strong> R$250 (Pista), R$500 (VIP 1), R$1000 (VIP 2)</p>
+    <p><strong>Ingressos:</strong> Disponíveis nas bilheterias ou online</p>
+    <p><strong>Estacionamento:</strong> Gratuito para os 500 primeiros veículos</p> <br>
+    <p><b>ATENÇÃO: ENTRADA PERMITIDA APENAS PARA MAIORES DE 18 ANOS</b></p>
+
+    <h2>Cadastro para o Evento</h2>
+    <form onsubmit="botaoCadastrar()">
+        <p><label for="nomeCompleto">Nome Completo:</label>
+            <input type="text" id="nomeCompleto" required>
+        </p>
+
+        <p><label for="cpf">Cpf:</label>
+            <input type="password" id="cpf" maxlength="11" required>
+        </p>
+
+        Selecione o tipo de ingresso que deseja comprar:
+        <br>
+        <label for="pista">Pista</label>
+        <input type="radio" id="pista" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 1">VIP 1</label>
+        <input type="radio" id="VIP 1" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 2">VIP 2</label>
+        <input type="radio" id="VIP 2" name="tipoIngresso" required>
+
+        <p><label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </p>
+
+        <p><label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" minlength="8" maxlength="11" required>
+        </p>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>

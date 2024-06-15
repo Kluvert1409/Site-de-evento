@@ -1,0 +1,55 @@
+h1{
+    margin: 7%;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 13%);
+    font-family: "Metal Mania", system-ui;
+    font-size: 115px;
+    font-style: normal;
+    color: white;
+}
+
+h2{
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    font-family: "New Rocker", system-ui;
+    font-size: 60px;
+    color: #c60d0f; 
+}
+  
+body {
+    background-image: url("bloody-grunge-background-ideal-halloween.jpg");
+    background-size: 100%;
+    font-family: Arial, sans-serif;
+    padding: 0;
+    text-align: center;
+    margin: 5%;
+    font-size: 20px;
+    text-align: center;
+    line-height: 30x;
+    color: white;
+}
+
+#justify {
+    margin-top: 40px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+#imgGojira {
+    width: 600px;
+}
+
+#imgLinkinPark {
+    width: 600px;
+}
+
+#imgSlipknot {
+    width: 700px;
+}
+
+form{
+    color: white;
+    text-align: justify;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+/* ext-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.178); */

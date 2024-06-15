@@ -1,0 +1,82 @@
+h1{
+    margin: 7%;
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    font-family: "Metal Mania", system-ui;
+    font-size: 150px;
+    color: #c60d0f;
+    /* color: hsl(0, 75%, 31%); */
+}
+
+@font-face{
+    font-family: "ROCKS___.ttf";
+    src: url('ROCKS___.ttf');
+}
+
+#justify {
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#simbolo {
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    font-family: "ROCKS___.ttf", system-ui;
+    font-size: 50px;
+    color: #c60d0f;
+}
+
+#simbolo2 {
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    font-family: "ROCKS___.ttf", system-ui;
+    font-size: 80px;
+    color: #c60d0f;
+    display: block;
+}
+
+
+.nomeBanda{
+    text-shadow: 4px 4px 4px hsl(0, 0%, 0%);
+    font-family: "New Rocker", system-ui;
+    font-size: 85px;
+    color: #c60d0f;
+}
+  
+body {
+    margin-bottom: 7%;
+    background-image: url("dark-grunge-background-ideal-use-as-halloween-design.jpg");
+    background-size: 100%;
+    font-family: "Bree Serif", serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 70px;
+    color: white;
+}
+  
+
+#botaoGojira {
+    font-family: "Bree Serif", serif;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#botaoSlipknot {
+    font-family: "Bree Serif", serif;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+#botaoLinkinPark {
+    font-family: "Bree Serif", serif;
+    width: 120px;
+    height: 50px;
+    font-size: 18px;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+
+/* ext-shadow: 4px 4px 4px hsla(0, 0%, 100%, 0.178); */

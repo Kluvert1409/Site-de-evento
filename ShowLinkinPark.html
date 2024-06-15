@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <link rel="stylesheet" href="CssSecundario.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Metal+Mania&family=New+Rocker&display=swap"
+        rel="stylesheet">
+
+    <script src="Javascript.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalhes do Evento - Linkin Park</title>
+</head>
+
+<body>
+    <img src="LinkinPark_logo.png" alt="Logo do Linkin Park" id="imgLinkinPark">
+
+    <div id="justify">
+        <p>Linkin Park é uma banda de rock norte-americana formada em Agoura Hills, Califórnia, em 1996. Com
+            um som caracterizado pela fusão de nu-metal, rock alternativo e elementos de hip-hop, a banda rapidamente
+            ganhou
+            notoriedade com o lançamento de seu álbum de estreia, "Hybrid Theory", em 2000. Este álbum, certificado como
+            Diamante pela RIAA, se tornou um dos mais vendidos do século XXI, catapultando Linkin Park ao estrelato
+            global.</p>
+
+        <p>Em 2024, no palco da Arena Brasil Metal, Linkin Park apresentará um tributo especial em homenagem ao seu
+            falecido
+            ex-vocalista Chester Bennington, que deixou um legado duradouro.</p>
+
+        <p>O tributo contará com performances emocionantes dos maiores sucessos de Linkin Park e será uma oportunidade
+            única para os fãs se reunirem e celebrarem a música e o legado de
+            Chester, honrando sua contribuição imensurável para a música e a inspiração que ele continua a
+            proporcionar ao redor do mundo.</p>
+    </div>
+
+    <h2>Informações do Evento</h2>
+    <p><strong>Data:</strong> 23/10/2024</p>
+    <p><strong>Local:</strong> Arena Brasil Metal</p>
+    <p><strong>Horário de abertura dos portões:</strong> 20h</p>
+    <p><strong>Início do show:</strong> 22h</p>
+    <p><strong>Preço dos ingressos:</strong> R$250 (Pista), R$500 (VIP 1), R$1000 (VIP 2)</p>
+    <p><strong>Ingressos:</strong> Disponíveis nas bilheterias ou online</p>
+    <p><strong>Estacionamento:</strong> Gratuito para os 500 primeiros veículos</p> <br>
+    <p><b>ATENÇÃO: ENTRADA PERMITIDA APENAS PARA MAIORES DE 18 ANOS</b></p>
+
+    <h2>Cadastro para o Evento</h2>
+    <form onsubmit="botaoCadastrar()">
+        <p><label for="nomeCompleto">Nome Completo:</label>
+            <input type="text" id="nomeCompleto" required>
+        </p>
+
+        <p><label for="cpf">Cpf:</label>
+            <input type="password" id="cpf" maxlength="11" required>
+        </p>
+
+        Selecione o tipo de ingresso que deseja comprar:
+        <br>
+        <label for="pista">Pista</label>
+        <input type="radio" id="pista" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 1">VIP 1</label>
+        <input type="radio" id="VIP 1" name="tipoIngresso" required>
+        <br>
+        <label for="VIP 2">VIP 2</label>
+        <input type="radio" id="VIP 2" name="tipoIngresso" required>
+
+        <p><label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </p>
+
+        <p><label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" minlength="8" maxlength="11" required>
+        </p>
+
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+
+</html>
