@@ -45,11 +45,15 @@ body {
     width: 700px;
 }
 
+
 form{
     color: white;
     text-align: justify;
-    margin-left: 40%;
-    margin-right: 40%;
+    width: 500px;
+    margin-left: 30%;
+    margin-right: 25%;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #c60d0f;
+    text-shadow: 2px 2px 2px hsl(0, 0%, 13%);
 }
-
-/* ext-shadow: 2px 2px 2px hsla(0, 0%, 100%, 0.178); */
