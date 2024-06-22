@@ -50,10 +50,9 @@ form{
     color: white;
     text-align: justify;
     width: 500px;
-    margin-left: 30%;
-    margin-right: 25%;
     padding: 25px;
     border-radius: 25px;
     background-color: #c60d0f;
     text-shadow: 2px 2px 2px hsl(0, 0%, 13%);
+    display: inline-block;
 }
