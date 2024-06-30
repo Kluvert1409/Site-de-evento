@@ -15,7 +15,9 @@ h2{
 }
   
 body {
+    background-color: rgba(217,2,0,255);
     background-image: url("bloody-grunge-background-ideal-halloween.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     font-family: Arial, sans-serif;
     padding: 0;
@@ -47,6 +49,7 @@ body {
 
 
 form{
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
     color: white;
     text-align: justify;
     width: 500px;
